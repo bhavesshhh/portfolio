@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(26, 37, 52);
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+
+header {
+    background-color: rgb(42, 46, 91);
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+nav .left a {
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+nav .right ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .right ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+nav .right ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+nav .right ul li a:hover {
+    color: #f39c12;
+}
+
+/* Section Styling */
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#home {
+    background: url('https://depositphotos.com/photos/portfolio-background.htmlhttps://e0.pxfuel.com/wallpapers/475/184/desktop-wallpaper-portfolio-background-portfolio-background-portfolio-and-career-portfolio.jpg') center/cover no-repeat;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#home .intro h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+#home .intro p {
+    font-size: 1.5rem;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Services & Projects */
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    color: #f39c12;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 20px auto;
+}
+
+form input, form textarea {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+form button {
+    padding: 10px 15px;
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #e67e22;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(42, 46, 91);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
